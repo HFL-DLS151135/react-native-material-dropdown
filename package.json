@@ -21,7 +21,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/n4kz/react-native-material-dropdown.git"
+    "url": "git@github.com:HFL-DLS151135/react-native-material-dropdown.git"
   },
 
   "peerDependencies": {
@@ -43,6 +43,6 @@
     "prop-types": "^15.5.9",
     "react-native-material-buttons": "^0.5.0",
     "react-native-material-ripple": "^0.8.0",
-    "react-native-material-textfield": "github:xsm1997/react-native-material-textfield"
+    "react-native-handoff-dropdown-textfield":"^0.18.0"
   }
 }
