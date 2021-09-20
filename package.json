@@ -1,9 +1,8 @@
 {
-  "name": "react-native-material-dropdown",
-  "version": "0.11.1",
+  "name": "react-native-handoff-dropdown",
+  "version": "0.18.0",
   "license": "BSD-3-Clause",
   "author": "Alexander Nazarov <n4kz@n4kz.com>",
-
   "description": "Material dropdown",
   "keywords": [
     "react",
@@ -16,33 +15,34 @@
     "spinner",
     "select"
   ],
-
   "main": "index.js",
-
   "repository": {
     "type": "git",
-    "url": "git@github.com:HFL-DLS151135/react-native-material-dropdown.git"
+    "url": "git+ssh://git@github.com/HFL-DLS151135/react-native-material-dropdown.git"
   },
-
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
-
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "eslint": "^4.5.0",
     "eslint-plugin-react": "^7.0.0"
   },
-
   "scripts": {
     "lint": "eslint src example/app.js"
   },
-
   "dependencies": {
     "prop-types": "^15.5.9",
     "react-native-material-buttons": "^0.5.0",
     "react-native-material-ripple": "^0.8.0",
-    "react-native-handoff-dropdown-textfield":"^0.18.0"
+    "react-native-handoff-dropdown-textfield": "^0.18.0"
+  },
+  "bugs": {
+    "url": "https://github.com/HFL-DLS151135/react-native-material-dropdown/issues"
+  },
+  "homepage": "https://github.com/HFL-DLS151135/react-native-material-dropdown#readme",
+  "directories": {
+    "example": "example"
   }
 }
